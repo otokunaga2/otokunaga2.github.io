@@ -2,7 +2,7 @@
 title: "Frist Post with Hugo"
 date: 2021-02-07T10:08:03+09:00
 tags: ["OHTERS"]
-draft: true
+draft: false
 ---
 
 # はじめに  
