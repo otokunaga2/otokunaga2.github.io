@@ -2,6 +2,8 @@ baseURL = "https://otokunaga2.github.io/"
 languageCode = "ja-jp"
 title = "Look back on myself"
 theme = "hugo-classic"
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
 
 # Required to get well formatted code blocks
 # Following options are referenced by
@@ -12,36 +14,14 @@ pygmentsCodeFences = true
 disablePathToLower = true
 
 # Needed for mermaid shortcodes
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.tableOfContents]
-    startLevel = 1
-    endLevel = 9
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
 
-[taxonomies]
-  author = "authors"
-  tag = "tags"
-	category = "categories"
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 1
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
 
-[mediaTypes]
-  [mediaTypes."application/atom+xml"]
-    suffixes = ["xml"]
-
-[outputFormats]
-  [outputFormats.Atom]
-    name = "Atom"
-    mediaType = "application/atom+xml"
-    baseName = "atom"
-    isPlainText = false
-    rel = "alternate"
-    isHTML = false
-    noUgly = true
-    permalinkable = false
-
-[outputFormats.outputs]
-  home = ["HTML", "ATOM"]
-  page = ["HTML"]
-  section = ["HTML"]
-  taxonomy = ["HTML"]
-  term = ["HTML", "ATOM"]

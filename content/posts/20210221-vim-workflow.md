@@ -1,6 +1,7 @@
 ---
 title: "20210221"
 date: 2021-02-21T10:02:18+09:00
+tags: ["vim", "cli workflow"]
 draft: true
 ---
 
@@ -17,7 +18,7 @@ Using, it you can operate some commands log, brame etc in your Vim terminal.
 
 # Reference
 - https://www.youtube.com/watch?v=1kThUbSdlro  
-- [commitizen]:https://dev.classmethod.jp/articles/commitizen/
+- https://dev.classmethod.jp/articles/commitizen/
 - https://github.com/tpope/vim-fugitive
 - https://github.com/craftzdog/dotfiles-public
 
