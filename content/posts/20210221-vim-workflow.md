@@ -2,7 +2,7 @@
 title: "20210221"
 date: 2021-02-21T10:02:18+09:00
 tags: ["vim", "cli workflow"]
-draft: true
+draft: false
 ---
 
 # Look back my workflow
